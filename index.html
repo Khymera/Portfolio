@@ -39,8 +39,12 @@
                         <div class="project_info">
                             <h3>Magiquill</h3>
                             <p>A browser-based text adventure game engine, created as part of a group for my UNT Capstone.</p>
-                            <a href="https://magiquill.netlify.app">Project Link</a>
-                            <a href="https://github.com/dylonk/Text_Adventure_Engine">Project Repository Link</a>
+                            <div class="project_link">
+                                <a href="https://magiquill.netlify.app">Project Link</a>
+                            </div>
+                            <div class="project_link">
+                                <a href="https://github.com/dylonk/Text_Adventure_Engine">Project Repository Link</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,9 +56,13 @@
                 <h2>My Experience</h2>
                 <div class="experience_containers">
                     <div class="experience_container">
+                        <h3>Education</h3>
                         <div class="experience_info">
-                            <h3>Education</h3>
                             <p>Currently studying at the University of North Texas, pursing a Bachelor's Degree in Computer Science with a Minor in Mathematics.</p>
+                            <!-- <a href="">Link</a> -->
+                        </div>
+                        <div class="experience_info">
+                            <p>Currently studying for the AWS Certified Solutions Architech Associate Certification (SAA-CO3).</p>
                             <!-- <a href="">Link</a> -->
                         </div>
                     </div>
@@ -82,8 +90,8 @@
             <h2>Contact Me</h2>
             <div class="contact_containers">
                 <div class="contact_info">
-                    <p>My Email.</p>
-                    <a href="mailto:kylesipod4g@gmail.com" class="btn">Email Me</a>
+                    <p>Email: kylesipod4g@gmail.com</p>
+                    <a href="mailto:kylesipod4g@gmail.com" class="btn">Click To Email Me</a>
                 </div>
             </div>
         </div>
@@ -154,6 +162,19 @@
 
     [class*="_containers"] {
         font-size: x-large
+    }
+
+    [class*="_info"] {
+        padding-bottom: 100px;
+    }
+
+    .project_link {
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    .experience_info {
+        padding-bottom: 50px;
     }
 
     .footer_social-links {
